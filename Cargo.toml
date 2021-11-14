@@ -1,0 +1,12 @@
+[package]
+name = "monitor-proxy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0.0-beta.10"
+serde = { version = "1.0.130", features = ["derive"] }
+rust_decimal = { version = "1.17.0", default-features = false, features = ["serde-float", "serde-arbitrary-precision"] }
+bigdecimal = "0.3.0"
+num-bigint = "0.4.3"
+ethers = "0.5.4"
